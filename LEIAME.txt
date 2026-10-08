@@ -1,0 +1,8 @@
+Studio Taluama - site completo
+
+1. Extraia o ZIP e abra a pasta no VS Code (Arquivo > Abrir Pasta).
+2. Abra index.html com a extensao Live Server (botao direito > Open with Live Server)
+   ou de dois cliques no arquivo.
+3. Para publicar: git add . / git commit / git push (a Vercel atualiza sozinha).
+
+Pastas: css/ (estilo), js/ (animacoes, menu e visualizador de fotos), assets/ (suas fotos).

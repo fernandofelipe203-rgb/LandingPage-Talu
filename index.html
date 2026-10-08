@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Studio Taluama - alongamentos, esmaltação em gel, manicure e pedicure. Agende seu horário pelo WhatsApp.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,500&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<title>Studio Taluama</title>
+</head>
+<body>
+
+<!-- Fundo animado -->
+<div class="fundo" aria-hidden="true">
+  <span class="blob b1"></span><span class="blob b2"></span><span class="blob b3"></span><span class="blob b4"></span>
+</div>
+<canvas id="brilhos" aria-hidden="true"></canvas>
+
+<header id="topo">
+  <div class="logo">Studio <em>Taluama</em></div>
+  <nav>
+    <a href="#studio">Studio</a>
+    <a href="#trabalhos">Trabalhos</a>
+    <a href="#servicos">Serviços</a>
+    <a href="#endereco">Endereço</a>
+    <a href="#contato">Contato</a>
+  </nav>
+  <a href="https://wa.me/5511978256021?text=Ol%C3%A1!%20Vi%20o%20site%20do%20Studio%20Taluama%20e%20gostaria%20de%20agendar%20um%20hor%C3%A1rio." class="btn-agendar" target="_blank">Agendar</a>
+  <button class="menu-btn" id="menuBtn" aria-label="Abrir menu" aria-expanded="false"><span></span><span></span><span></span></button>
+</header>
+
+<main>
+
+<section id="studio" class="secao-inicio">
+  <div class="text-inicio">
+    <p class="text-subtitulo">✦ STUDIO TALUAMA BARROS ✦</p>
+    <h1>Beleza que começa nos <em>pequenos detalhes.</em></h1>
+    <p class="text-descricao">Cuidados e beleza para deixar suas unhas ainda mais especiais.</p>
+    <div class="inicio-botoes">
+      <a href="https://wa.me/5511978256021?text=Ol%C3%A1!%20Vi%20o%20site%20do%20Studio%20Taluama%20e%20gostaria%20de%20agendar%20um%20hor%C3%A1rio." class="btn-agendar grande" target="_blank">Agendar horário</a>
+      <a href="#servicos" class="btn-ghost">Ver serviços</a>
+    </div>
+    <ul class="destaques">
+      <li>💅 Alongamentos</li><li>✨ Gel</li><li>🌸 Pés e mãos</li>
+    </ul>
+  </div>
+  <div class="imagens">
+    <div class="moldura"><img src="assets/FotoPrincipal.jpeg" alt="Unhas feitas no Studio Taluama"></div>
+  </div>
+</section>
+
+<section id="trabalhos" class="secao-trabalhos reveal">
+  <p class="sub">NOSSO TRABALHO</p>
+  <h2>Unhas feitas com cuidado e detalhes.</h2>
+  <p class="desc">Conheça alguns dos trabalhos realizados no Studio Taluama.</p>
+  <div class="galeria-trabalhos">
+    <img src="assets/Foto1.jpeg" alt="Trabalho de unhas realizado no Studio Taluama">
+    <img src="assets/Foto2.jpeg" alt="Trabalho de unhas realizado no Studio Taluama">
+    <img src="assets/Foto3.jpeg" alt="Trabalho de unhas realizado no Studio Taluama">
+    <img src="assets/Foto4.jpeg" alt="Trabalho de unhas realizado no Studio Taluama">
+    <img src="assets/Foto5.jpeg" alt="Trabalho de unhas realizado no Studio Taluama">
+    <img src="assets/Foto6.jpeg" alt="Trabalho de unhas realizado no Studio Taluama">
+    <img src="assets/Foto7.jpeg" alt="Trabalho de unhas realizado no Studio Taluama">
+    <img src="assets/Foto8.jpeg" alt="Trabalho de unhas realizado no Studio Taluama">
+  </div>
+</section>
+
+<section id="servicos" class="secao-servicos reveal">
+  <p class="sub">SERVIÇOS</p>
+  <h2>Cuidados pensados em você.</h2>
+  <p class="desc">Técnicas e cuidados para deixar suas unhas bonitas, delicadas e bem cuidadas.</p>
+  <div class="lista-servicos">
+    <div class="card-servico"><h3>Manicure</h3><p>Cuidados completos para deixar suas unhas bonitas e bem cuidadas.</p><span>R$ 30,00</span></div>
+    <div class="card-servico destaque"><em class="selo">Mais pedido</em><h3>Alongamentos</h3><p>Tips, fibra de vidro, fibra poliéster e molde F1, com acabamento delicado e personalizado.</p><span>R$ 150,00</span></div>
+    <div class="card-servico"><h3>Manutenção</h3><p>Renova o alongamento, preserva a estrutura das unhas e mantém o acabamento impecável.</p><span>R$ 120,00</span></div>
+    <div class="card-servico"><h3>Esmaltação em Gel</h3><p>Acabamento brilhante e maior durabilidade, mantendo as unhas bonitas por mais tempo.</p><span>R$ 75,00</span></div>
+    <div class="card-servico"><h3>Soft em Gel</h3><p>Alongamento natural e delicado, ideal para quem busca praticidade, resistência e beleza.</p><span>R$ 130,00</span></div>
+    <div class="card-servico"><h3>Pé tradicional</h3><p>Cuidados completos para os pés, com tratamento das unhas e acabamento bem cuidado.</p><span>R$ 40,00</span></div>
+    <div class="card-servico"><h3>Plástica dos pés</h3><p>Renova a aparência dos pés, com maciez, hidratação e um toque de cuidado.</p><span>R$ 85,00</span></div>
+    <div class="card-servico"><h3>Esmaltação em gel nos pés</h3><p>Brilho intenso e maior durabilidade para um acabamento impecável.</p><span>R$ 80,00</span></div>
+    <div class="card-servico"><h3>Remoção de unha</h3><p>Remoção cuidadosa do procedimento anterior, preservando a saúde das unhas.</p><span>R$ 35,00</span></div>
+    <div class="card-servico"><h3>Banho de gel</h3><p>Camada de gel que dá mais resistência e proteção, com acabamento natural e elegante.</p><span>R$ 100,00</span></div>
+    <div class="card-servico"><h3>Blindagem</h3><p>Protege as unhas naturais, aumentando a resistência e prolongando a esmaltação.</p><span>R$ 80,00</span></div>
+    <div class="card-servico"><h3>Reposição de unha (un)</h3><p>Reposição de unhas danificadas ou quebradas, mantendo o acabamento uniforme.</p><span>R$ 15,00</span></div>
+  </div>
+</section>
+
+<section id="endereco" class="secao-endereco reveal">
+  <div class="conteudo-endereco">
+    <p class="sub">LOCALIZAÇÃO</p>
+    <h2>Onde estamos</h2>
+    <p class="endereco-texto">Rua E, 148 - Bairro Jardim Santo André<br>São Paulo - SP</p>
+    <div class="botoes-endereco">
+      <a href="https://www.google.com/maps/search/?api=1&query=Rua+E,+148,+Jardim+Santo+André,+São+Paulo+-+SP" class="btn-endereco" target="_blank">📍 Google Maps</a>
+      <a href="https://www.waze.com/ul?q=Rua+E,+148,+Jardim+Santo+André,+São+Paulo+-+SP" class="btn-endereco" target="_blank">🚗 Waze</a>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer id="contato" class="rodape">
+  <div class="rodape-conteudo">
+    <div class="rodape-marca">
+      <h2>Studio <em>Taluama</em></h2>
+      <p>Beleza, cuidado e detalhes que fazem a diferença.</p>
+    </div>
+    <div class="rodape-contato">
+      <h3>Contato</h3>
+      <a href="https://wa.me/5511978256021?text=Ol%C3%A1!%20Vi%20o%20site%20do%20Studio%20Taluama%20e%20gostaria%20de%20agendar%20um%20hor%C3%A1rio." target="_blank">WhatsApp</a>
+      <a href="https://www.instagram.com/talu.beautystudio/" target="_blank">Instagram</a>
+    </div>
+    <div class="rodape-horario">
+      <h3>Atendimento</h3>
+      <p>Segunda a sábado</p>
+      <p>09:00 às 19:00</p>
+    </div>
+  </div>
+  <div class="rodape-final"><p>© 2026 Studio Taluama. Todos os direitos reservados.</p></div>
+</footer>
+
+<a class="zap-flutuante" target="_blank" aria-label="Agendar pelo WhatsApp" href="https://wa.me/5511978256021?text=Ol%C3%A1!%20Vi%20o%20site%20do%20Studio%20Taluama%20e%20gostaria%20de%20agendar%20um%20hor%C3%A1rio.">💬 Agendar</a>
+
+<script src="js/script.js"></script>
+</body>
+</html>
